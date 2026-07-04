@@ -44,6 +44,10 @@ useEffect(() => {
     navigate('/home');
   }
 
+  const HandleCheckoutClick = () =>{
+    navigate('/checkout');
+  }
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) {
@@ -58,7 +62,7 @@ useEffect(() => {
   return (
     <header id="cs-navigation" className={isMenuOpen ? 'cs-active' : ''}>
       <div className="cs-container">
-        <a href="/home" className="cs-logo" aria-label="Return to Home page">
+        <a onClick={() => handleHomeClick} className="cs-logo" aria-label="Return to Home page">
           <img 
             src={logo} 
             alt="Company Logo" 
@@ -104,7 +108,7 @@ useEffect(() => {
                 </ul>
               </li>
               <li className="cs-li">
-                <a href="/checkout" className="cs-li-link">
+                <a onClick={()=> HandleCheckoutClick()} className="cs-li-link">
                   Checkout ({cart.length})
                 </a>
               </li>
