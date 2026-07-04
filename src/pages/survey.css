@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(25, 48, 56, 0.797);
+}
+
+.form1{
+    position: relative;
+    z-index:1;
+}
+.endContainer{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  padding-top: clamp(10.5rem, 17.95vw, 12.75rem);
+  position:relative;
+  padding-bottom: 3rem;
+  z-index: 1;
+}
+
+.endContainer h1{
+    font-family: 'Sen', sans-serif;
+    color:antiquewhite;
+    width: 36rem;
+    text-align: center;
+    font-weight: 600;
+    background-color:rgba(30, 50, 76, 0.59);
+    padding: 1rem 0 1rem 0;
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgb(19, 103, 106);
+}
+
+.endContainer label{
+    font-family: 'Sen', sans-serif;
+    color:antiquewhite;
+    font-size: 1.25rem;
+
+}
+
+.survey{
+    display: flex;
+    flex-direction: column;
+}
+
+.endContainer .input{
+    width: 36rem;
+    height: 20rem;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color:rgb(187, 156, 115);
+    border-width: 2px;
+}
+
+.button-wrapper{
+    position:relative;
+    height: 4rem;
+}
+.subbtn{
+    border-radius: 50px;
+    width: 8rem;
+    background-color: transparent;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 50px;
+    padding: 0;
+    position:absolute;
+    right:0;
+}
+
+.subbtn img{
+    object-fit: cover;
+    border-radius: inherit;
+}
+.home{
+    border-radius: 50px;
+    width: 8rem;
+    background-color: transparent;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 50px;
+    padding: 0;
+    position:absolute;
+    right:9rem;
+}
+
+.home img{
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.input:focus{
+   outline: none;
+}
+
+.topBanner{
+    position:absolute;
+    z-index:0;
+    top: 0;
+    transform: translateY(-30%);
+    mask-image: radial-gradient( rgb(17, 25, 38) 0%, rgba(17, 25, 38, 0.164) 50%, rgba(0, 0, 0, 0) 98%);
+}
+
+.topBanner img{
+    mask-image: linear-gradient( rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.bottomBanner{
+    position:absolute;
+    width:100%;
+    z-index:0;
+    bottom: 0;
+    opacity: 0.3;
+    mask-image: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.164) 50%, rgb(0, 0, 0) 100%);
+}
+.bottomBanner img{
+    display: block;
+}

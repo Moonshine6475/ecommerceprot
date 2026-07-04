@@ -1,0 +1,138 @@
+.checkout{
+    background-color: rgb(43, 71, 94);
+    padding: 1rem;
+}
+
+.billing{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  padding-top: clamp(10.5rem, 17.95vw, 12.75rem);
+  position:relative;
+  padding-bottom: 3rem;
+  z-index: 1;
+}
+
+.billing h1{
+    color:antiquewhite;
+    font-family: 'Sen', sans-serif;
+    text-decoration: underline;
+}
+
+.bil2{
+    display:flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.form label, h4,small{
+    color:antiquewhite;
+}
+
+.form input,select{
+    border-radius:20px;
+    margin-bottom:2px;
+}
+.checkout input.form-control,
+.checkout select.form-select,
+.checkout .form-check-input {
+    
+    scroll-margin-top: 12rem; 
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    margin-top:1rem;
+    background-color:rgb(65, 127, 146);
+    box-shadow: 0 0 16px rgb(19, 35, 46);
+    align-self: flex-start;
+    padding: 2rem 1rem 1rem 1rem;
+    border-radius: 20px;
+
+}
+
+
+.cart .total{
+    font-size: 1.3rem;
+    text-align: right;
+    padding-bottom:0;
+    color:antiquewhite;
+    font-family: 'Sen', sans-serif;
+}
+
+.cart .promocode{
+    display:flex;
+    position:relative;
+    margin-top: -1rem;
+    flex-direction: column;
+}
+
+.promocode strong{
+    color: antiquewhite;
+    font-size: 1.1rem;
+    padding-left: 0.25rem;
+}
+
+.promocode input{
+    border-radius: 20px;
+}
+
+.promocode button{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    bottom: 5px;
+    right: 16px;
+    flex-shrink: 0;
+    padding:0;
+    display: flex;
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: none;
+}
+
+.promocode button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yee{
+    margin-bottom:0;
+}
+
+.appliedcodes{
+    color:antiquewhite;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.appliedcodes h3{
+    margin-bottom:0.25rem;
+}
+
+.topBanner{
+    position:absolute;
+    z-index:0;
+    top: 0;
+    transform: translateY(-30%);
+    mask-image: radial-gradient( rgb(17, 25, 38) 0%, rgba(17, 25, 38, 0.164) 50%, rgba(0, 0, 0, 0) 98%);
+}
+
+.topBanner img{
+    mask-image: linear-gradient( rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.bottomBanner{
+    position:fixed;
+    z-index:0;
+    bottom: 0;
+    mask-image: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.164) 50%, rgb(0, 0, 0) 100%);
+}
+.bottomBanner img{
+    display: block;
+}

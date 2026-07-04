@@ -1,0 +1,97 @@
+.sidebar{
+    border-radius: 16px;
+    background-color:#524b54;
+    box-shadow: 0px 0px 16px rgba(181, 101, 218, 0.432);
+    padding: 1rem;
+    margin-top: 2rem;
+    height: auto;
+    align-self: flex-start;
+}
+
+
+
+
+.filterList-ul {
+  list-style: none;
+  padding: 0 0 1rem 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Adds clean spacing between list items */
+}
+
+.filterList h3{
+      font-family: 'Sen', sans-serif;
+      color: #fff9ec;
+}
+/* 2. Make the checkbox and text align perfectly inline */
+.itemlist {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* The gap between the checkbox box and its label text */
+}
+
+.itemlist label {
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Sen', sans-serif;
+  color: #fff9ec;
+}
+
+/* 3. Your Base Checkbox Style */
+.itemlist input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  margin: 0;
+  cursor: pointer;
+  
+  /* Dimensions & Border */
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid #94a3b8;
+  border-radius: 4px;
+  
+  /* Grid centering to position our pseudo-element checkmark */
+  display: grid;
+  place-content: center;
+  transition: all 0.15s ease-in-out;
+}
+
+/* Style for when the checkbox is active/checked */
+
+.itemlist input[type="checkbox"]::before {
+  content: "";
+  width: 0.35rem;
+  height: 0.65rem;
+  border-color: #2b3e58;
+  border-width: 0 2.5px 2.5px 0; 
+  
+  transform: rotate(45deg) scale(0);
+  transition: transform 0.1s ease-in-out;
+  margin-top: -2px; 
+}
+
+/* Make the checkmark pop into view when checked */
+.itemlist input[type="checkbox"]:checked::before {
+  transform: rotate(45deg) scale(1);
+}
+
+.itemlist input[type="checkbox"]:checked {
+  /* 1. Remove the solid blue background fill */
+  background-color: rgba(16, 38, 68, 0.788); 
+  
+  /* 2. Re-assert border styling if you want it to match your theme */
+  border-color: #2b3758; 
+  
+  /* 3. Force modern browsers to completely ignore default OS checkmark styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+}
+
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}

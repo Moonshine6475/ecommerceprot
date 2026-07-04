@@ -1,0 +1,102 @@
+
+
+
+.mainstuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  padding-top: clamp(6.5rem, 17.95vw, 12.75rem);
+  background-color:#524b54;
+  position:relative;
+  
+}
+
+.topBanner{
+    position:absolute;
+    z-index:0;
+    top: 0;
+    transform: translateY(-30%);
+    mask-image: radial-gradient( rgb(17, 25, 38) 0%, rgba(17, 25, 38, 0.164) 50%, rgba(0, 0, 0, 0) 98%);
+}
+
+.bottomBanner{
+    position:absolute;
+    z-index:0;
+    bottom: 0;
+    mask-image: radial-gradient( rgb(17, 25, 38) 0%, rgba(17, 25, 38, 0.164) 50%, rgba(0, 0, 0, 0) 98%);
+}
+
+
+.product-header {
+    text-align: center;
+    font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    color:#fff9ec;
+    font-family: "Sen", sans-serif;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.product-header h1 {
+    font-family: "Sen", sans-serif;
+    margin: 0;
+    text-decoration: underline;
+
+}
+
+
+.product-container {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.product-content {
+    flex: 1;
+    min-height: 100vh;
+}
+
+.product-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 10rem));
+    gap: 2rem 1rem;
+    border-left: 1px solid #ccc;
+    padding: 2rem 0 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pagination-buttons button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-size: contain;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.pagination-buttons button:hover:not(:disabled) {
+    opacity: 0.7;
+}
+
+.pagination-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-buttons span {
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+}

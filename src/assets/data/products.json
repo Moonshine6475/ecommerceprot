@@ -1,0 +1,233 @@
+[
+    {
+    "itemname": "Zhongli Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Zhongli", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Zhongli.",
+    "price": 15.99,
+    "image": "https://m.media-amazon.com/images/I/41f59huTecL._AC_UF894,1000_QL80_.jpg",
+    "id": "1"
+    }
+    ,{
+    "itemname": "Childe Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Childe", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Childe.",
+    "price": 15.99,
+    "image":"https://i.ebayimg.com/00/s/MTUwMFgxNTAw/z/LjsAAOSwFiVgcE0P/$_10.JPG?set_id=880000500F",
+    "id": "2"
+    }
+    ,{
+    "itemname": "Yelan Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Yelan", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Yelan.",
+    "price": 15.99,
+    "image": "https://u-mercari-images.mercdn.net/photos/m43744719553_1.jpg?width=2560&quality=75&_=1707608665",
+    "id": "3"
+    }
+    ,{
+    "itemname": "Mona Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Mona", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Mona.",
+    "image": "https://m.media-amazon.com/images/I/41WDHSwBwzL.jpg",
+    "price": 15.99,
+    "id": "4"
+    }
+    ,{
+    "itemname": "Skirk Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Skirk", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Skirk.",
+    "image": "https://i.etsystatic.com/40664621/r/il/fa346a/7165861452/il_fullxfull.7165861452_h8x2.jpg",
+    "price": 15.99,
+    "id": "5"
+    }
+    ,{
+    "itemname": "Xiao Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Xiao", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Xiao.",
+    "price": 15.99,
+    "image": "https://i.ebayimg.com/images/g/kRMAAOSwMvxghjJG/s-l400.jpg",
+    "id": "6"
+    }
+    ,{
+    "itemname": "Flins Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Flins", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Flins.",
+    "price": 15.99,
+    "image": "https://i.etsystatic.com/61326028/r/il/c54d26/7305188993/il_fullxfull.7305188993_iapa.jpg",
+    "id": "7"
+    }
+    ,{
+    "itemname": "Furina Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Furina", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Furina.",
+    "price": 15.99,
+    "image" : "https://genshinfans.com/cdn/shop/files/product-07.jpg?v=1721808561",
+    "id": "8"
+    }
+    ,{
+    "itemname": "Raiden Shogun Acrylic Standee",
+    "itemtype": "Standee",
+    "tags": ["Raiden Shogun", "Acrylic", "Standee"],
+    "description": "A high-quality acrylic standee featuring Raiden Shogun.",
+    "price": 15.99,
+    "image" : "https://i.ebayimg.com/images/g/W3UAAOSwR2BirR87/s-l1200.jpg",
+    "id": "9"
+    }
+    ,{
+    "itemname": "Raiden Shogun Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Raiden Shogun", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Raiden Shogun.",
+    "price": 12.99,
+    "image" : "https://i.etsystatic.com/30174343/r/il/510097/3400000901/il_fullxfull.3400000901_2cjx.jpg",
+    "id": "10"
+    }
+    ,{
+    "itemname": "Childe Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Childe", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Childe.",
+    "price": 12.99,
+    "image" : "https://i.etsystatic.com/30174343/r/il/b1a28c/3547273170/il_570xN.3547273170_t6b2.jpg",
+    "id": "11"
+    }
+    ,{
+    "itemname": "Zhongli Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Zhongli", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Zhongli.",
+    "price": 12.99,
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3T7uCYxyEH-twGR4Y6TL3fmwgcT2QcMUa4MQ_Jw02Qc-od6ExIvUSsS9&s=10",
+    "id": "12"
+    },{
+    "itemname": "Yelan Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Yelan", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Yelan.",
+    "price": 12.99,
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToT1TsOSU3_iBNu83FFWMD275RNETTGywK8Au5aBzCXUa5iWqgLYKpg48&s=10",
+    "id": "13"
+    },{
+    "itemname": "Mona Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Mona", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Mona.",
+    "price": 12.99,
+    "image" : "https://i.etsystatic.com/17501194/r/il/a55f39/3322665198/il_570xN.3322665198_ejji.jpg",
+    "id": "14"
+    },{
+    "itemname": "Skirk Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Skirk", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Skirk.",
+    "price": 12.99,
+    "image" : "https://i.etsystatic.com/61326476/r/il/c638f5/7200075189/il_fullxfull.7200075189_juqn.jpg",
+    "id": "15"
+    },{
+    "itemname": "Xiao Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Xiao", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Xiao.",
+    "price": 12.99,
+    "image" : "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/g/19/d4ed1b16-e5b7-4404-ac4c-b8f4c5873c8f.jpg",
+    "id": "16"
+    },{
+    "itemname": "Flins Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Flins", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Flins.",
+    "price": 12.99,
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjc7Adts6yBbtjMpL1D5SrodpAfatP01ZEXW7Wg6WhrURaRKqZY0pOVQhH&s=10",
+    "id": "17"
+    },{
+    "itemname": "Furina Acrylic Keychain",
+    "itemtype": "Keychain",
+    "tags": ["Furina", "Acrylic", "Keychain"],
+    "description": "A high-quality acrylic Keychain featuring Furina.",
+    "price": 12.99,
+    "image" : "https://upload-os-bbs.hoyolab.com/upload/2024/08/29/305193193/70aeef6fa0f0082b3a41ae2e0598d21c_1833111646796289923.jpg",
+    "id": "18"
+    },{
+    "itemname": "Zhongli Plush",
+    "itemtype": "Plush",
+    "tags": ["Zhongli", "Plushie"],
+    "description": "A high-quality plushie featuring Zhongli.",
+    "price": 24.49,
+    "image" : "https://i.ebayimg.com/images/g/sv0AAOSwsEVhPHmw/s-l1200.jpg",
+    "id": "19"
+    },{
+    "itemname": "Childe Plush",
+    "itemtype": "Plush",
+    "tags": ["Childe", "Plushie"],
+    "description": "A high-quality plushie featuring Childe.",
+    "price": 24.49,
+    "image" : "https://m.media-amazon.com/images/I/714PnCVZjdL.jpg",
+    "id": "20"
+    },{
+    "itemname": "Yelan Plush",
+    "itemtype": "Plush",
+    "tags": ["Yelan", "Plushie"],
+    "description": "A high-quality plushie featuring Yelan.",
+    "price": 24.49,
+    "image" : "https://m.media-amazon.com/images/I/718SZYGJipL.jpg",
+    "id": "21"
+    },{
+    "itemname": "Mona Plush",
+    "itemtype": "Plush",
+    "tags": ["Mona", "Plushie"],
+    "description": "A high-quality plushie featuring Mona.",
+    "price": 24.49,
+    "image" : "https://i.ebayimg.com/images/g/oxkAAOSwsalirUwy/s-l400.jpg",
+    "id": "22"
+    },{
+    "itemname": "Skirk Plush",
+    "itemtype": "Plush",
+    "tags": ["Skirk", "Plushie"],
+    "description": "A high-quality plushie featuring Skirk.",
+    "price": 24.49,
+    "image" : "https://m.media-amazon.com/images/I/51oXhZRc86L.jpg",
+    "id": "23"
+    },{
+    "itemname": "Xiao Plush",
+    "itemtype": "Plush",
+    "tags": ["Xiao", "Plushie"],
+    "description": "A high-quality plushie featuring Xiao.",
+    "price": 24.49,
+    "image" : "https://i.ebayimg.com/images/g/ZEcAAeSwRzRps7Zb/s-l1200.jpg",
+    "id": "24"
+    }
+    ,{
+    "itemname": "Flins Plush",
+    "itemtype": "Plush",
+    "tags": ["Flins", "Plushie"],
+    "description": "A high-quality plushie featuring Xiao.",
+    "price": 24.49,
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8XHo8ElofDjYAbcFVvbZcFFyK3nPOQD9bONyfkx6RqVbzhLTIxQaKyw&s=10",
+    "id": "25"
+    }
+    ,{
+    "itemname": "Furina Plush",
+    "itemtype": "Plush",
+    "tags": ["Furina", "Plushie"],
+    "description": "A high-quality plushie featuring Furina.",
+    "price": 24.49,
+    "image" : "https://m.media-amazon.com/images/I/61hWWvjcNlL._AC_UF894,1000_QL80_.jpg",
+    "id": "26"
+    }
+    ,{
+    "itemname": "Raiden Shogun Plush",
+    "itemtype": "Plush",
+    "tags": ["Raiden Shogun", "Plushie"],
+    "description": "A high-quality plushie featuring Raiden Shogun.",
+    "price": 24.49,
+    "image" : "https://i5.walmartimages.com/asr/b954cc47-1816-4624-a0cd-892f00cef534.962bc7e06cc07343518a1acc2cdf4a47.jpeg",
+    "id": "27"
+    }
+]

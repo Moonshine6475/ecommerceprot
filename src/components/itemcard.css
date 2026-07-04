@@ -1,0 +1,40 @@
+.item-card{
+    width: 18rem;
+    height: 24rem;
+    aspect-ratio: 3/4;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0 18px rgba(22, 181, 255, 0.63);
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item-card img{
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.item-card-content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 600;
+    color: #111926;
+    padding: 0 1rem 2rem;
+    text-align: left;
+}
+
+.item-card h3{
+    font-size: 1.25rem;
+    margin: 0.5rem 0 0.25rem 0;
+    text-align: center;
+}
+
